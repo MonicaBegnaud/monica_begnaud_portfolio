@@ -1,7 +1,15 @@
+:root {
+    --primary: #574F7D;
+    --secondary: #95ADBE;
+    --accent: #DFF0EA;
+    --light: #FFFFFF;
+    --dark: #000000;
+}
+
 body {
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: blueviolet;
-    color: antiquewhite;
+    background-color: var(--primary);
+    color: var(--light);
     line-height: 1.5;
 }
