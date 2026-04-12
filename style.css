@@ -50,5 +50,22 @@ header {
 
 .nav-links a:hover {
     background-color: var(--accent);
+    color: var(--light);
     border-radius: 5px;
+}
+
+.collection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px 20px;
+}
+
+.collection-card {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: var(--secondary);
+    padding: 16px;
+    flex: 1 1 300px;
+    color: var(--dark);
 }
