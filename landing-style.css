@@ -1,0 +1,142 @@
+:root {
+    --primary: #2c2a27;
+    --secondary: #5b4a3f;
+    --accent: #c2a878;
+    --light: #ede6d6;
+    --dark: #1a1816;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: var(--light);
+    color: var(--dark);
+    line-height: 1.5;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background: var(--primary);
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: wavy;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.skill-card {
+    padding: 20px 30px;
+    background: var(--secondary);
+    color: whitesmoke;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    background: var(--accent);
+    color: var(--dark);
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: whitesmoke;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card h3 {
+    padding: 15px;
+    color: var(--primary);
+    text-align: center;
+}
+
+.project-card p {
+    padding: 0 15px 20px;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25)
+}
+
+footer {
+    background: var(--primary);
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: wavy;
+    transition: color 0.3s;
+}
+
+footer:hover {
+    color: var(--accent);
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10PX;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
