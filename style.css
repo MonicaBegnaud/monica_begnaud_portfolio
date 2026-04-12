@@ -58,7 +58,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 40px;
     padding: 20px 20px;
 }
 
@@ -69,4 +69,11 @@ header {
     flex: 1 1 300px;
     color: var(--dark);
     border-radius: 5px;
+}
+
+.collection-image {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
 }
