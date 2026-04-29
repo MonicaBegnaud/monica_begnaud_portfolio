@@ -190,3 +190,18 @@ footer p a:hover {
         align-items: center;
     }
 }
+
+.back-button {
+    border: solid whitesmoke;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #333;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
