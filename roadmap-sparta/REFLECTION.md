@@ -1,0 +1,15 @@
+# Project Reflections
+
+### Decisions: 
+The most important aspect of my final portfolio was the content, choosing what projects I wanted to include to best showcase the 
+skills developed throughout my coursework. Instead of adding everything I have worked on, I chose completed work that showed understanding and a progression of my skills that would be relevant to employers in my preferred field. Along with the content, a main focus was on the overall style, from the color palette to the layout of each page. As this portfolio is intended to be a reflection of my work I wanted it to come across as polished and professional with a deliberate and consistent visual presentation. 
+
+### What worked:
+I am most satisfied with the way the site reads. Each page has a clearly defined purpose with relevant content that is easy for the user
+to navigate and understand what they are looking at. Making sure the internal navigation and external links functioned correctly was critical for not only a user-friendly experience but also in an accurate representation of the included projects. Many of the showcased projects contained their own navigation menus, so it was a challenge to make sure they continued to function properly while still letting the user navigate back to the portfolio site and between its pages.
+
+### What would you do differently:
+If I had to start over I would focus more on time management throughout the project. Instead of working on it consistently and with small changes, I tend to make large additions all at once, not come back for a while, and then repeat. While I am still happy with the overall end project, I think a stronger focus on smaller milestones and finishing one section at a time to completion would have led to a more refined final outcome.  
+
+### What you learned: 
+I have taken away from the project a stronger understanding of how to organize a multi-page project within Visual Studio Code and through GitHub. Previous projects have been an index page, a CSS style sheet and maybe a couple additional HTML pages. With this project I had to incorporate all of those for the portfolio itself but also include and organize those pages for all the included project examples while making sure they kept their original formatting and did not take on or change that of the portfolio. I had to be deliberate with my naming conventions as well as my links. I also learned that while VS Code can offer prompts within the code language, it does not help with spellcheck in the body text and I needed to go back and fix many spelling and grammar mistakes. 
