@@ -9,4 +9,5 @@ My website is hosted through GitHub pages. This not only makes it easily accessi
 ### How to Access
 [Begnaud Portfolio](https://monicabegnaud.github.io/monica_begnaud_portfolio/index.html)
 ### What changed from Project 01 to Project 02
-The biggest changes were in the content and refinement of Project 02. Project 01 focused mainly on having a basic layout and an idea of what I wanted to include, but with several blank pages and many spelling mistakes. As I worked to completing Project 02 I added more meaningful content and focused on having the site read as something professional that displayed what I am capable of. 
+The biggest changes were in the content and refinement of Project 02. Project 01 focused mainly on having a basic layout and an idea of what I wanted to include, but with several blank pages and many spelling mistakes. As I worked to completing Project 02 I added more meaningful content and focused on having the site read as something professional that displayed what I am capable of and could be shown
+to potential employeers.
