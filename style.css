@@ -110,3 +110,113 @@ h2 {
     padding: 15px 0;
     border-radius: 8px;
 }
+
+.header-border {
+  border-bottom: 1.5px solid #1a1a1a;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+
+.resume-name {
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: -0.5px;
+  margin-bottom: 3px;
+  font-family: 'Georgia', serif;
+}
+ 
+.resume-title {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+  font-family: Arial, sans-serif;
+}
+ 
+.resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  font-size: 12px;
+  color: var(--accent);
+  font-family: Arial, sans-serif;
+  margin-bottom: 4px;
+}
+ 
+.section {
+  margin-bottom: 18px;
+}
+ 
+.section-title {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  border-bottom: 0.5px solid #ccc;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.summary {
+  font-size: 12.5px;
+  color: var(--accent);
+  line-height: 1.7;
+  font-family: Arial, sans-serif;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+ 
+.skill-group-label {
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--accent);
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tag-list {
+  font-size: 12px;
+  color: var(--accent);
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+}
+
+.entry-title {
+  font-size: 13.5px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+ 
+.entry-org {
+  font-size: 12px;
+  color: var(--accent);
+  font-family: Arial, sans-serif;
+  margin-top: 1px;
+}
+ 
+.entry-date {
+  font-size: 11px;
+  color: var(--accent);
+  font-family: Arial, sans-serif;
+}
+ 
+.entry-bullets {
+  margin: 5px 0 0 16px;
+  font-size: 12px;
+  color: var(--accent);
+  line-height: 1.7;
+  font-family: Arial, sans-serif;
+}
+ 
+.entry-bullets li {
+  margin-bottom: 2px;
+}
